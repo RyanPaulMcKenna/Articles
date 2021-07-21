@@ -109,7 +109,7 @@ It is important to note that React.js is a library, not a framework. Frameworks 
 
 The repository-service pattern is a great pattern to provide our React  components with data. It allows us to move a lot of logic out of the react components and split it between several classes that are responsible for collecting a certain type of data. We can enforce the specification of this data with interfaces. All of this data can be accessed by the service class that we inject into the top-level React component. The service is composed of several of one or more repositories. All custom types/object should have their own interface. Here is a very simple example in UML.
 
- ![frontendUML](frontendUML.svg)
+ ![frontendUML](https://github.com/RyanPaulMcKenna/Articles/blob/main/frontendUML.svg)
 
 This example has three repository classes, three repository interfaces, four object classes, four object interfaces, one service class, one service interface.
 
